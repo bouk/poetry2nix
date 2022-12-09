@@ -326,7 +326,6 @@ description = ""
 category = "main"
 optional = false
 python-versions = ">=3.6"
-marker = "sys_platform != 'darwin'"
 
 [package.dependencies]
 addict = "*"
@@ -349,7 +348,6 @@ description = ""
 category = "main"
 optional = false
 python-versions = ">=3.6"
-marker = "sys_platform == 'darwin'"
 
 [package.dependencies]
 configargparse = "*"
